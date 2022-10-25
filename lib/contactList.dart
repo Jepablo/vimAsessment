@@ -10,6 +10,7 @@ class ContactList extends StatefulWidget {
   State<ContactList> createState() => _ContactListState();
 }
 
+
 class _ContactListState extends State<ContactList> {
 
   final dateStr = DateFormat('yyyy-MM-dd HH:mm:ss').format(DateTime.now());
